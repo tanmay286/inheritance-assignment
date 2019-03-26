@@ -52,7 +52,7 @@ public class AccountBank {
 	public double deposit(double amount) {
 		accountBalance=accountBalance+amount;
 		
-		return accountBalance + amount;
+		return accountBalance;
 		
 	}
 }
